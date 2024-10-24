@@ -1,38 +1,64 @@
-### GDG 
+## **How to Submit Your Solution?**
 
-### How to submit your solution?
+1. **Clone this repository:**
+   - Clone the project repository to your local machine using the following command:
+     ```bash
+     git clone <repository-url>
+     ```
 
-1. Clone this repository
-2. Create a new branch with the name of the task followed by your
-   name (`task-1-<your name>`)
-3. Create a new directory with the name of the task followed by your name,
-   inside the task directory (`1-task/<your name>`)
-4. Add your solution to the directory
-5. Commit your changes
-    - the commit messages should be descriptive
-    - the commit message should be in this format:
-        - `<type>: <description>`
-        - `<type>` is the type of the commit
-            - `feat:` for new features
-            - `fix:` for bug fixes
-            - `refactor:` for code refactoring
-            - `docs:` for documentation changes
-            - `style:` for changes that do not affect the meaning of the
-              code
-            - `test:` for adding or refactoring tests
-            - `chore:` for changes to the build process or auxiliary
-              tools and
-              libraries such as documentation generation
-        - `<description>` is a short description of the commit
-            - `feat: implement a new feature`
-            - `fix: remove a bug`
-            - `refactor: change the implementation of a feature`
-            - `docs: add a new document`
-            - `style: change the color of a button`
-            - `test: add a new test`
-            - `chore: add a new dependency`
-6. Push your changes to this repository
-7. Create a pull request to this repository
-    - the title of the pull request should be in this format:
-        - `[Task 1]: Implement Holy Grail layout using CSS`
-        - `[Task 2]: Implement Mortage Calculator using React`
+2. **Create a new branch:**
+   - Create a new branch with the name of the task followed by your name:
+     ```bash
+     git checkout -b task-1-<your-name>
+     ```
+
+3. **Create a directory for your task:**
+   - Inside the `tasks` directory, create a new folder named after the task followed by your name:
+     ```
+     tasks/
+       └── 1-task/
+           └── <your-name>/
+     ```
+   - Add your solution files to this directory.
+
+4. **Commit your changes:**
+   - Ensure that your commit messages are **descriptive** and follow the format below:
+     ```
+     <type>: <short description>
+     ```
+   - **Types of commits**:
+     - `feat`: For adding a new feature.
+     - `fix`: For fixing bugs.
+     - `refactor`: For refactoring existing code.
+     - `docs`: For changes related to documentation.
+     - `style`: For styling changes that don’t impact the code logic.
+     - `test`: For adding or improving tests.
+     - `chore`: For changes to build processes or auxiliary tools.
+
+   - **Examples of commit messages**:
+     - `feat: implement a new feature`
+     - `fix: remove a bug in form validation`
+     - `refactor: improve login function`
+     - `docs: add contribution guidelines`
+     - `style: change the color of submit button`
+     - `test: add tests for user login`
+     - `chore: add ESLint configuration`
+
+5. **Push your changes:**
+   - Push your branch to the repository:
+     ```bash
+     git push origin task-1-<your-name>
+     ```
+
+6. **Create a Pull Request (PR):**
+   - Go to the repository on GitHub and create a **pull request** (PR) from your branch.
+   - The **title** of the PR should follow this format:
+     ```
+     [Task <task-number>]: <Task description>
+     ```
+
+   - **Examples of PR titles**:
+     - `[Task 1]: Implement Holy Grail layout using CSS`
+     - `[Task 2]: Implement Mortgage Calculator using React`
+
+---
