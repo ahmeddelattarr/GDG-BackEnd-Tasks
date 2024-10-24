@@ -22,6 +22,8 @@
    - Add your solution files to this directory.
 
 4. **Commit your changes:**
+   ![git-commit-message-cheatsheet](https://github.com/user-attachments/assets/20f9bbe3-5f51-49b6-bbdb-b62bdbeec7e7)
+
    - Ensure that your commit messages are **descriptive** and follow the format below:
      ```
      <type>: <short description>
@@ -44,13 +46,13 @@
      - `test: add tests for user login`
      - `chore: add ESLint configuration`
 
-5. **Push your changes:**
+6. **Push your changes:**
    - Push your branch to the repository:
      ```bash
      git push origin task-1-<your-name>
      ```
 
-6. **Create a Pull Request (PR):**
+7. **Create a Pull Request (PR):**
    - Go to the repository on GitHub and create a **pull request** (PR) from your branch.
    - The **title** of the PR should follow this format:
      ```
