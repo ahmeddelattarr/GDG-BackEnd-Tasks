@@ -1,0 +1,106 @@
+body
+{
+    background-color:rgb(226, 233, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.form
+{
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    width: 960%;
+    margin: 110px;
+    padding: 30px;
+    border: 0.5px solid rgb(201, 192, 192);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.h1
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.submit
+{
+    background-color: rgb(0, 118, 253);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.submit:hover {
+    background-color:rgb(14, 14, 226);
+}
+.label
+{
+    display: block;
+    text-align: left;
+    color: rgb(77, 75, 68);
+    padding-bottom: 5px;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.input, .message
+{
+    width: 95%;
+    height: 20px;
+    padding: 9px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid rgb(216, 205, 205);
+    margin-right: 50px;
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .form {
+        margin: 20px; 
+        padding: 20px;
+    }
+
+    .h1 {
+        font-size: 20px;
+    }
+
+    .submit {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .input, .message {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .form {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .h1 {
+        font-size: 18px;
+    }
+
+    .input, .message {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .submit {
+        font-size: 13px;
+        padding: 7px;
+    }
+}
