@@ -62,22 +62,22 @@ body {
   @media (max-width:900px) {
     .Contact_Us {
       padding: 15px;
-      animation-name: pud;
+      animation-name: padding_in_animationud;
       animation-duration: 2s;
     }}
   @media (min-width:900px) {
       .Contact_Us {
         padding: 35px;
-        animation-name: pad;
+        animation-name: padding_out_animation;
         animation-duration: 2s;
       }
   }
-  @keyframes pud {
+  @keyframes padding_in_animation {
     from{padding: 35px;}
     to{padding:15px ;}
   
   }
-  @keyframes pad {
+  @keyframes padding_out_animation {
     from{padding: 15px;}
     to{padding:35px ;}
   
