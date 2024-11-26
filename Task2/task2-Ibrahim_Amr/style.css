@@ -1,0 +1,84 @@
+body {
+
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color:#eef6ff ;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  height: 100vh; 
+  justify-content: center;
+  align-items: center;
+  }
+  .Contact_Us {
+    
+    width: 90%;
+    max-width: 400px;
+    background-color:#fff;
+    border: 1.5px solid #ccc;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    animation-name: form ;
+    animation-duration: 2s;
+  }
+  .Contact_Us h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #525050;
+  
+  }
+  .Contact_Us label {
+    margin-left:4px ;
+    margin-bottom:8px ;
+    display: block;
+    color: #525050;
+  }
+  .Contact_Us input , .Contact_Us textarea {
+    margin-left: 1px;
+    margin-bottom: 15px;
+    display: block;
+    border-radius:10px ;
+    width:95% ;
+    padding: 10px;
+    border :1PX solid #cacaca;
+    max-width: 95%;
+  }
+  
+  .Contact_Us button {
+    width: 80%;
+    padding: 15px;
+    background-color: #2adeb4;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left:11.5%;
+    margin-top: 10px;
+    
+  }
+  .Contact_Us button:hover {
+    background-color: #07bd8f;
+  }
+  @media (max-width:900px) {
+    .Contact_Us {
+      padding: 15px;
+      animation-name: padding_in_animationud;
+      animation-duration: 2s;
+    }}
+  @media (min-width:900px) {
+      .Contact_Us {
+        padding: 35px;
+        animation-name: padding_out_animation;
+        animation-duration: 2s;
+      }
+  }
+  @keyframes padding_in_animation {
+    from{padding: 35px;}
+    to{padding:15px ;}
+  
+  }
+  @keyframes padding_out_animation {
+    from{padding: 15px;}
+    to{padding:35px ;}
+  
+  }
