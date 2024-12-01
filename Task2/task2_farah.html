@@ -1,33 +1,69 @@
 <head>
-
+    
 <meta name="description" content=" submition form" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="task2" href="C:\Users\Wa7eed\Desktop\tasks\GDG-BackEnd-Tasks\Task2" >
 <title>Demo site</title>
 <style>
      h1 {
-        background-color: antiquewhite;
+        background-color: white;
         color: black;
         text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    
         
     }
     body {
-        background-color: antiquewhite;
+        background-color: aliceblue;
+        justify-content: center;
+        margin: 0;
+        display: flex;
+        opacity: 0.9;
+        
+        
          
     }
+    
    .contact {
-        width: 400px;
-        height: 300px;
-        background-color: antiquewhite;
-        border: 2px solid black;
-        padding: 10px;
+        width: 385px;
+        height: 350px;
+        background-color:white;
+        
+        padding: 20px;
         box-sizing: border-box;
         margin: 200px;
+        border-radius: 10px;
+        
+        border: 0.5px solid gray;
     }
     button {
-        background-color: blue;
+        background-color: rgb(18, 115, 212);
         color: aliceblue;
-        opacity: 0.5;
+        width: 100%;
+        cursor: pointer;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 20px 4px 20px;    
+        border: 0.5px solid lightgray;
+        
+        
+
+    }
+    button:hover{
+      background-color:darkblue  
+    }
+    .contact label {
+    
+        display: block;
+        color: rgb(85, 83, 83);
+        padding: 5px;
+        margin-bottom: 5px;
+        
+    }
+    .contact input {
+        width: 100%;
+        padding: 5px;
     }
    </style>
 </head>
@@ -37,13 +73,19 @@
 <h1>contact us</h1>
 
 <form>
+    
 <label> Name </label>
 <input type="text" name="fname" placeholder=" Enter your name"><br>
+
+   
 <label> Email </label>
 <input type="text" name="email" placeholder=" Enter your email"><br>
+
+   
 <label> Message </label>
 <input type="text" name="message" placeholder="Enter your message"><br>
-<button type="submit"> register  </button><br>
+
+<button type="submit"> submit  </button><br>
 </form>
 </div>
 </body>
