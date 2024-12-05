@@ -6,7 +6,7 @@
 ![2 NF](image2.png)
 
 **Apply 3 NF**:
-![3 NF](image3.png)
+![3 NF](image.png)
 
 **Apply 4 NF**: 
 ![4 NF](image4.png)
